@@ -67,7 +67,8 @@ python -m streamlit run app.py
 ---
 
 ## 👨‍💻 Team
-**Name:** Code Blue
+**Name:** Code Blue 
+
 **Category:** Agriculture, Food Tech & Rural Development  
 
 
