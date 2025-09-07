@@ -39,8 +39,9 @@ if uploaded_file is not None:
     threshold = 00.0  # percentage
     if confidence < threshold:
         st.warning("Predicted Breed: **Unknown Breed** ❌")
-        st.info(f"Confidence: {confidence:.2f}%")
+        
     else:
         breed = class_names[index]
         st.success(f"Predicted Breed: **{breed}** 🐂")
-        st.info(f"Confidence: {confidence:.2f}%")
+        
+
